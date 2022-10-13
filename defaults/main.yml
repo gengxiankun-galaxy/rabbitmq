@@ -1,0 +1,12 @@
+---
+# defaults file for rabbitmq
+
+OPT_PATH: /opt/gengxiankun-galaxy
+
+RABBITMQ_CONTAINER_NAME: 'rabbitmq'
+RABBITMQ_VERSION: 'latest'
+RABBITMQ_PORT: 5672
+RABBITMQ_MANAGEMENT_PORT: 15672
+RABBITMQ_VOLUME: 'rabbitmq'
+RABBITMQ_DEFAULT_USER: 'root'
+RABBITMQ_DEFAULT_PASS: 'root'
